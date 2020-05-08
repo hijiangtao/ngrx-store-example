@@ -1,7 +1,11 @@
+/**
+ * 在组件中 DI store，然后通过 select 选中相应状态，状态变更通过 dispatch 派发
+ */
 import { Component } from '@angular/core';
 import { Store, select } from '@ngrx/store';
 import { Observable } from 'rxjs';
-import { increment, decrement, reset } from '../counter.actions';
+import { increment, decrement, reset } from '../reducers/counter.actions';
+import { State } from '../reducers';
 
 @Component({
     selector: 'app-my-counter',
@@ -11,7 +15,14 @@ import { increment, decrement, reset } from '../counter.actions';
 export class MyCounterComponent {
     count$: Observable<number>;
 
-    constructor(private store: Store<{ count: number }>) {
+    /**
+     * 在组件中注入使用
+     * @param store Store
+     */
+    constructor(private store: Store<State>) {
+        /**
+         * 选中 count
+         */
         this.count$ = store.pipe(select('count'));
     }
 
