@@ -1,27 +1,8 @@
 # NgrxStoreExample
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
+《[Angular 状态管理方案调研](//hijiangtao.github.io/2020/05/08/Angular-State-Management-Invest-Report/》一文中介绍了关于在 Angular 项目中引入状态管理方案的一些调研内容。
 
-## Development server
+调研方向主要围绕 ngrx 和 ngxs 两个方案展开。本项目演示了在一个 Angular 项目中如何引入 `@ngrx/store` 进行状态管理。
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+-   [Demo](https://hijiangtao.github.io/ngrx-store-example/)
+-   [博客](https://hijiangtao.github.io/2020/05/08/Angular-State-Management-Invest-Report/)
