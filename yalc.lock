@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "@fudao/hello": {
+      "signature": "9c669df3b09f78a47bbbd4a984524357",
+      "file": true
+    }
+  }
+}

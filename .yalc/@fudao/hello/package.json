@@ -1,0 +1,19 @@
+{
+  "name": "@fudao/hello",
+  "version": "0.0.1-9c669df3",
+  "peerDependencies": {
+    "@angular/common": "^9.0.7",
+    "@angular/core": "^9.0.7",
+    "tslib": "^1.10.0"
+  },
+  "main": "bundles/fudao-hello.umd.js",
+  "module": "fesm5/fudao-hello.js",
+  "es2015": "fesm2015/fudao-hello.js",
+  "esm5": "esm5/fudao-hello.js",
+  "esm2015": "esm2015/fudao-hello.js",
+  "fesm5": "fesm5/fudao-hello.js",
+  "fesm2015": "fesm2015/fudao-hello.js",
+  "typings": "fudao-hello.d.ts",
+  "metadata": "fudao-hello.metadata.json",
+  "sideEffects": false
+}
