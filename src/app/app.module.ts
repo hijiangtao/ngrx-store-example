@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { StoreModule } from '@ngrx/store';
+import { HelloModule } from '@fudao/hello';
 import { actionReducerMap } from './reducers';
 import { MyCounterComponent } from './my-counter/my-counter.component';
 
@@ -20,6 +21,7 @@ import { MyCounterComponent } from './my-counter/my-counter.component';
     imports: [
         BrowserModule,
         AppRoutingModule,
+        HelloModule,
 
         /**
          * 在 app.module.ts 中注册全局状态
